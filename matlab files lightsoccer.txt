@@ -1,0 +1,27 @@
+=========================================
+Filename: lightsoccer.m
+=========================================
+
+The main file that all requested calculations and plots where carried out
+
+
+=========================================
+Filename: cover.m
+=========================================
+
+A function that computes the left and right uncoverd parts of the goal area
+as described in the first section of the assignment.
+
+
+=========================================
+Filename: costfunction.m
+=========================================
+
+A function that uses cover.m to compute the cost of the function
+J = x_l^2 + x_r^2
+
+=========================================
+Filename: lightsoccer.slx
+=========================================
+
+The Simulink template for the LQR controller.
